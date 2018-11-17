@@ -1,3 +1,7 @@
+;to run the program use following commands
+;nasm -f elf add.asm
+;ld -m elf_i386 -s -o add add.o
+
 SYS_EXIT equ 1
 SYS_WRITE equ 4
 SYS_READ equ 3
